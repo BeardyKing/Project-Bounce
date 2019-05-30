@@ -12,11 +12,12 @@ public class EventHandler : MonoBehaviour
     GameObject[] nodeOne = new GameObject[2];
 
     public GameObject reflect1;
-
+    IntroToLevel introToLevel;
     public bool mDown = false;
     private Camera cam;
     // Start is called before the first frame update
     void Start(){
+        introToLevel = FindObjectOfType<IntroToLevel>();
         StaticData.ActiveBalls = 0;
         cam = Camera.main;
         lineOne[1] = Vector3.zero;
@@ -24,18 +25,19 @@ public class EventHandler : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
-        MouseController();
-        if (mDown == true) {
-            if (lineOne[1] == Vector3.zero) {
-                Debug.Log("CREATE NODE");
-                nodeOne[1] = new GameObject();
-                nodeOne[1].name = "node (1)";
-                nodeOne[1].transform.localScale = new Vector3(.1f, .1f, .1f);
+        if (introToLevel.startLevel == true) {
+            MouseController();
+            if (mDown == true) {
+                if (lineOne[1] == Vector3.zero) {
+                    Debug.Log("CREATE NODE");
+                    nodeOne[1] = new GameObject();
+                    nodeOne[1].name = "node (1)";
+                    nodeOne[1].transform.localScale = new Vector3(.1f, .1f, .1f);
+                }
+                Vector3 screen = cam.ScreenToWorldPoint(Input.mousePosition);
+                lineOne[1] = new Vector3(screen.x, screen.y, 0.5f);
             }
-            Vector3 screen = cam.ScreenToWorldPoint(Input.mousePosition);
-            lineOne[1] = new Vector3(screen.x, screen.y, 0.5f);
         }
-
         //Debug.Log("LINES ACTIVE : " + StaticData.ActiveLines);
     }
 

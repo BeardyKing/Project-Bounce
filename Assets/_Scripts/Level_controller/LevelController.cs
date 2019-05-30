@@ -31,6 +31,9 @@ public class LevelController : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
+        if (true) {
+
+        }
         if (timer < 1) {
             timer += Time.deltaTime / timeToShift;
             if (timer > 1) {
