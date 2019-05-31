@@ -87,6 +87,7 @@
     <Compile Include="Assets\IntroToLevel.cs" />
     <Compile Include="Assets\MouseOverSave.cs" />
     <Compile Include="Assets\MouseTriggerEvent.cs" />
+    <Compile Include="Assets\QuitApplication.cs" />
     <Compile Include="Assets\SetLinePos.cs" />
     <Compile Include="Assets\UI__Score_handler.cs" />
     <Compile Include="Assets\UI_AddPlayerScore.cs" />
