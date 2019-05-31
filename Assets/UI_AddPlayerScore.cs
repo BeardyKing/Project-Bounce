@@ -73,5 +73,5 @@ public class UI_AddPlayerScore : MonoBehaviour
         }
     }
 
-    bool canPressButton = true;
+    public bool canPressButton = true;
 }

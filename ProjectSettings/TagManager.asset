@@ -10,6 +10,7 @@ TagManager:
   - outOfBounds
   - pain
   - PickUp
+  - save
   layers:
   - Default
   - TransparentFX

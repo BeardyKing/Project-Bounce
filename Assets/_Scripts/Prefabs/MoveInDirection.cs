@@ -6,6 +6,7 @@ public class MoveInDirection : MonoBehaviour {
     [SerializeField]
 	private Vector2 direction;
     public GameObject particle;
+    CameraShake cameraShake;
 
 	//[SerializeField]
 	readonly float maxSpeed = 150;
@@ -49,6 +50,7 @@ public class MoveInDirection : MonoBehaviour {
 	#endregion
 
 	void Start(){
+        cameraShake = FindObjectOfType<CameraShake>();
 		rb = GetComponent<Rigidbody>();
         StaticData.ActiveBalls += 1;
 		
@@ -87,6 +89,10 @@ public class MoveInDirection : MonoBehaviour {
 			}
 			Speed = Speed + (Speed / 10);
             GameObject temp = Instantiate(particle);
+            if (cameraShake) {
+                cameraShake.EvokeShake(0.11f, .02f);
+            }
+
             temp.transform.position = new Vector3(transform.position.x, transform.position.y, 2);
 		}
 	}

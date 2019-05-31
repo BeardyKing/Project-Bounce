@@ -6,9 +6,11 @@ public class SpawnBallController : MonoBehaviour
 {
     public GameObject ball;
     public GameObject spawnPoint;
+    CameraShake cameraShake;
     Rigidbody rb;
     // Start is called before the first frame update
     void Start(){
+        cameraShake = FindObjectOfType<CameraShake>();
         rb = GetComponent<Rigidbody>();
         startPos = transform.position;
         StaticData.ActiveSpawnPrefabs += 1;
@@ -47,6 +49,9 @@ public class SpawnBallController : MonoBehaviour
         dir = dir.normalized;
         hasSpawnedBall = true;
         StaticData.ActiveSpawnPrefabs -= 1;
+        cameraShake.EvokeShake(0.35f, 0.08f);
+
+
 
     }
 
