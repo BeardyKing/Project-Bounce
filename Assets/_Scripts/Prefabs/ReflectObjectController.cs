@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class ReflectObjectController : MonoBehaviour
 {
+    //public Vector3 pos1;
+    //public Vector3 pos2;
     // Start is called before the first frame update
     void Start(){
         StaticData.ActiveLines += 1;
         currentCol = new Vector4(col.r, col.g, col.b, .01f);
+        Physics.IgnoreLayerCollision(10,12);
     }
 
     // Update is called once per frame
     void Update(){
-        ChangeColour();
+        ChangeColour();        
     }
+    public bool test = false;
     //00BFA9 OG COL
 
     public Color col;
@@ -38,9 +42,18 @@ public class ReflectObjectController : MonoBehaviour
                         StaticData.ActiveLines -= 1;
                         Debug.Log("Object too small to spawn");
                     }
+                    else {
+                        //if (test == false) {
+                        //    GameObject empty = new GameObject();
+                        //    test = true;
+                        //    GameObject o1 = Instantiate(empty);
+                        //    o1.name = "OBJ 1";
+                        //    GameObject o2 = Instantiate(empty);
+                        //    o2.name = "OBJ 2";
+                        //}
+                    }
                 }
                 //currentCol = new Vector4(col.r, col.g, col.b, 1);
-
             }
         }
             rend.material.SetColor("_WireColor", currentCol);

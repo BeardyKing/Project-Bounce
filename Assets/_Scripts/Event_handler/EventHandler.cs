@@ -45,7 +45,11 @@ public class EventHandler : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) {
             if (StaticData.ActiveLines < allowedAmountOfLines) {
                reflect1 = Instantiate(prefab);
-               reflect1.gameObject.layer = 10;
+
+                //reflect1.GetComponent<ReflectObjectController>().pos1 = nodeOne[0].transform.position;
+                //reflect1.GetComponent<ReflectObjectController>().pos2 = nodeOne[0].transform.position;
+
+                reflect1.gameObject.layer = 10;
                Destroy(nodeOne[0]);
                 
                 mDown = true;
