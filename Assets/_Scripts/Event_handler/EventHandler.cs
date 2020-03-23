@@ -15,6 +15,11 @@ public class EventHandler : MonoBehaviour
     IntroToLevel introToLevel;
     public bool mDown = false;
     private Camera cam;
+
+    private void Awake(){
+        Application.targetFrameRate = 60;    
+    }
+
     // Start is called before the first frame update
     void Start(){
         introToLevel = FindObjectOfType<IntroToLevel>();
