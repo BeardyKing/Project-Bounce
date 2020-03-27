@@ -111,18 +111,6 @@
     <None Include="Assets\_3D\Shaders\old\WireframeShaded-Unlit-Global.shader" />
     <None Include="Assets\_3D\Shaders\Glow_2.shader" />
     <None Include="Assets\_3D\Shaders\old\Wireframe-Global.shader" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -141,11 +129,17 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
@@ -155,6 +149,15 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -171,14 +174,11 @@
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/khopk/source/repos/Git/Unity/Protect_Uni_Project_Beta/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
