@@ -1773,7 +1773,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cb9e8a0b83bd1314ea27d3e61fc10c75, type: 2}
+      objectReference: {fileID: 2100000, guid: 997c6283272edfb4896136bd1a811b42, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13268e1accd8bc24fad5e5cab5d72494, type: 3}
 --- !u!1 &675144722
@@ -4283,7 +4283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: f90c923967ab8b44885c0bcd0b200cb0, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 3184cc8520306c0419723a182052aa20, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -4305,8 +4305,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   stopNaNPropagation: 1
-  finalBlitToCameraTarget: 1
-  antialiasingMode: 2
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -4342,7 +4342,7 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
+  m_ShowToolkit: 1
   m_ShowCustomSorter: 0
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []

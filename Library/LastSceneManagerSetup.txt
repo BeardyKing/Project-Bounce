@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Levels/Level_TryAgain.unity
+- path: Assets/_Levels/Score_Screen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

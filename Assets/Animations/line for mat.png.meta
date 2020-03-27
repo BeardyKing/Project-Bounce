@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: 21300002
     second: line for mat_1
+  - first:
+      213: -5929678258528064275
+    second: line for mat_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -100,7 +103,7 @@ TextureImporter:
         width: 19
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,7 +124,7 @@ TextureImporter:
         width: 44
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,6 +132,27 @@ TextureImporter:
       bones: []
       spriteID: e801241a5ca602148a278a0b2a270c26
       internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: line for mat_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 11
+        width: 348
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dece3186a0d85bda0800000000000000
+      internalID: -5929678258528064275
       vertices: []
       indices: 
       edges: []

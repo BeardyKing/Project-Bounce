@@ -56,8 +56,8 @@ public class ReflectObjectController : MonoBehaviour
                 //currentCol = new Vector4(col.r, col.g, col.b, 1);
             }
         }
-            rend.material.SetColor("_WireColor", currentCol);
-            rend.material.SetColor("_BaseColor", currentCol);
+            rend.material.SetColor("_Color", currentCol);
+            //rend.material.SetColor("_MainColor", currentCol);
     }
     bool beingDestroyed = false;
     bool singlePass = false;

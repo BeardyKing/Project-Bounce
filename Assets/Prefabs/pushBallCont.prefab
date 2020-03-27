@@ -38,10 +38,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7848467080813503729}
     m_Modifications:
-    - target: {fileID: 6447978377285154708, guid: 5e7d470ee1e686343a2278780be33ef3,
-        type: 3}
-      propertyPath: m_Name
-      value: PushBall
+    - target: {fileID: 1419951528, guid: 5e7d470ee1e686343a2278780be33ef3, type: 3}
+      propertyPath: m_Constraints
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 6447978377285154705, guid: 5e7d470ee1e686343a2278780be33ef3,
         type: 3}
@@ -108,10 +107,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 8.970989
       objectReference: {fileID: 0}
-    - target: {fileID: 1419951528, guid: 5e7d470ee1e686343a2278780be33ef3, type: 3}
-      propertyPath: m_Constraints
-      value: 118
+    - target: {fileID: 6447978377285154707, guid: 5e7d470ee1e686343a2278780be33ef3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 997c6283272edfb4896136bd1a811b42, type: 2}
+    - target: {fileID: 6447978377285154708, guid: 5e7d470ee1e686343a2278780be33ef3,
+        type: 3}
+      propertyPath: m_Name
+      value: PushBall
       objectReference: {fileID: 0}
+    - target: {fileID: 6447978377462592943, guid: 5e7d470ee1e686343a2278780be33ef3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 122ef5e0d4054d94bbea17518a08502c, type: 2}
+    - target: {fileID: 6447978377743818058, guid: 5e7d470ee1e686343a2278780be33ef3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 122ef5e0d4054d94bbea17518a08502c, type: 2}
     - target: {fileID: 7600106556709910041, guid: 5e7d470ee1e686343a2278780be33ef3,
         type: 3}
       propertyPath: spawnPoint
